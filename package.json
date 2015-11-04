@@ -1,0 +1,19 @@
+{
+  "name": "der_website",
+  "version": "0.0.1",
+  "description": "Personal Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krauzer/der_website.git"
+  },
+  "author": "Dylan Krause",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krauzer/der_website/issues"
+  },
+  "homepage": "https://github.com/krauzer/der_website#readme"
+}

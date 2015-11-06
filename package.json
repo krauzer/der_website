@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/krauzer/der_website.git"
   },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "author": "Dylan Krause",
   "license": "MIT",
   "bugs": {

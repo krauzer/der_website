@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/krauzer/der_website/issues"
   },
-  "homepage": "https://github.com/krauzer/der_website#readme"
+  "homepage": "https://github.com/krauzer/der_website#readme",
+  "dependencies": {
+    "hapi": "^11.1.0",
+    "inert": "^3.2.0"
+  }
 }

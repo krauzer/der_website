@@ -25,7 +25,7 @@ module.exports = {
     filename: '[name].js'
   },
   resolve :{
-    extensions: ['','.js', '.sass'],
+    extensions: ['','.js', '.scss'],
     modulesDirectories: ['app', 'node_modules']
     },
   resolveLoader: {

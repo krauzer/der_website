@@ -39,7 +39,7 @@ module.exports = {
         loader: 'babel?presets[]=es2015'
       },
       {
-        test: /\.sass$/,
+        test: /\.scss$/,
         loader: ExtractTextPlugin.extract('style-loader', sassLoaders.join('!'))
       }
     ]

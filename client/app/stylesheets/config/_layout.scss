@@ -1,0 +1,12 @@
+@import './colors';
+@import './sizes';
+
+body {
+  background-color: $background-universal;
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  width: $media-desktop;
+}

@@ -3,11 +3,9 @@
 
 .canvas {
   margin: $margin-small 0;
-  width: $media-desktop;
 }
 
 .canvas--landscape {
-  height: $hCanvas-centerpiece;
   border: 4px solid $border-canvasDefault;
   background-color: $background-lightCanvas;
 }

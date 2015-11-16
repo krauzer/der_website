@@ -25,7 +25,7 @@ module.exports = {
     filename: '[name].js'
   },
   resolve :{
-    extensions: ['','.js', '.sass'],
+    extensions: ['','.js', '.scss'],
     modulesDirectories: ['app', 'node_modules']
     },
   resolveLoader: {
@@ -39,7 +39,7 @@ module.exports = {
         loader: 'babel?presets[]=es2015'
       },
       {
-        test: /\.sass$/,
+        test: /\.scss$/,
         loader: ExtractTextPlugin.extract('style-loader', sassLoaders.join('!'))
       }
     ]

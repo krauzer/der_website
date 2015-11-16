@@ -1,0 +1,11 @@
+@import '../config/colors';
+@import '../config/sizes';
+
+.canvas {
+  margin: $margin-small 0;
+}
+
+.canvas--landscape {
+  border: 4px solid $border-canvasDefault;
+  background-color: $background-lightCanvas;
+}
